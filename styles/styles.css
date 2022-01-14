@@ -1,0 +1,91 @@
+/* CSS Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+/* Base Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 1em 2em;
+  color: #414141;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  line-height: 1.5;
+  max-width: 800px;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 0.7em;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #c3c3c3;
+  margin-bottom: 2em;
+}
+
+.links li {
+  padding: 0.3em;
+}
+
+.links a {
+  padding: 0.2em;
+  color: #414141;
+}
+
+h1 a,
+.links a {
+  text-decoration: none;
+  color: #414141;
+}
+
+a {
+  color: rgb(32, 119, 233);
+}
+
+.current {
+  border-bottom: 1px solid black;
+}
+
+main {
+  flex: 1;
+  margin-bottom: 10em;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+footer {
+  font-size: 0.7em;
+  text-align: center;
+  border-top: 1px solid #c3c3c3;
+  padding-top: 1em;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 600px) {
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  body {
+    padding-left: 10em;
+    max-width: 960px;
+  }
+}
