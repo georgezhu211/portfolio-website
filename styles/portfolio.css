@@ -1,5 +1,4 @@
 h2 {
-  padding-left: 1em;
   font-size: 1.1em;
 }
 
@@ -13,7 +12,7 @@ main ul {
 
 main ul li {
   list-style-type: square;
-  margin: 0 2em;
+  margin-left: 1em;
 }
 
 .github {
